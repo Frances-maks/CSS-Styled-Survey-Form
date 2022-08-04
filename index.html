@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <main>
+    <header>
+        <div class="head">
+        <h1>Survey Form</h1>
+        <p>Thank You For Taking Your Time To Give Us Feedback</p>
+    </div>
+    </header>
+    <div class="form-fill">
+    <form action="mail to:chukwujanefrances@gmail.com">
+        <div class="name">
+            <label for="name" id="name-label">Name</label>
+            <div class="names">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+        </div>
+        </div>
+        <div class="email">
+            <label for="email" id="email-label">Email</label>
+            <div class="mail">
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        </div>
+        </div>
+        <div class="age">
+            <label for="age" id="age-label">Age</label>
+            <div class="aged">
+             <input type="number" name="age" id="age" placeholder="Age" class="number">
+            </div>
+        </div>
+        <div class="role">
+            <label for="Occupation" class="select-role">Choose A Role That Best Describes You</label>
+            <div class="select-r">
+            <select name="Occupation" id="dropdown" >
+            <option selected disabled value>Select Your Role</option>
+            <option value="Student">Student</option>
+            <option value="intern">Intern</option>
+            <option value="Software developer">Software Developer</option>
+            <option value="data scientist">Data Scientist</option>
+            <option value="Product designer">Product Designer</option>
+        </select>
+    </div>
+        </div>
+        <div class="rating">
+            <label for="rating" class="radio-group">Would You Recommend Our Product To A Friend?</label>
+            <div class="rateme">
+            <div>
+                <input type="radio" name="rating" value="never"> <label class="rate"> Never</label>
+            </div>
+            <div>
+                <input type="radio" name="rating" value="Maybe" ><label class="rate"> Maybe</label>
+            </div>
+            <div>
+                <input type="radio" name="rating" value="Likely"><label class="rate"> Likely</label>
+            </div>
+            <div>
+                <input type="radio" name="rating" value="Definitely"><label class="rate"> Definitely</label>
+            </div>
+        </div>
+        </div>
+        <div class="likes">
+            <label for="Liked" class="checkbox-group">Select Things You Liked About Our Product</label>
+            <div class="likeme">
+            <div>
+                <input type="checkbox" name="liked" value="UI"> <label class="like">UI</label> 
+            </div>
+            <div>
+                <input type="checkbox" name="liked" value="Features"> <label class="like">Features</label>
+            </div>
+            <div>
+                <input type="checkbox" name="liked" value="Services"> <label class="like">Services</label>
+            </div>
+            <div>
+                <input type="checkbox" name="liked" value="Simpleness"> <label class="like">Simpleness</label>
+            </div>
+        </div>
+        </div>
+        <div class="remark">
+            <label for="remark" class="remark1">Remark</label>
+            <div class="txt">
+            <textarea name="remark" id=""  cols="10" rows="5" placeholder="Tell Us How We Can Improve"></textarea>
+        </div>
+        </div>
+    </div>
+    <div class="btn">
+        <button>Submit</button>
+    </div>
+    </form>
+</main>
+</body>
+</html>

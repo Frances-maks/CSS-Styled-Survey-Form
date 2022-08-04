@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+main{
+    margin-top: 60px; 
+    margin-bottom: 40px;
+    margin-left: 37%;
+    margin-right: 37%;
+    padding-bottom: 40px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding-top: 25px;
+    background-color: rgb(157,157,157);
+}
+header{
+    text-align: center;
+}
+.head{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    margin-bottom: 10px;
+}
+p{
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-size: small;
+    font-weight: 100;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: fit-content;
+}
+.form-fill{
+    padding-left: 10px;
+    padding-top: 3px;
+    display: flex;
+    margin-left: auto;
+}
+label{
+    font-weight: 500;
+    font-size: small;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.name{
+    padding-bottom: 10px;
+    display: block;
+    margin-left: 10px;
+}
+.names{
+    padding-top: 5px;
+}
+.email{
+    padding-bottom: 10px;
+    display: block;
+    margin-left: 10px;
+}
+.mail{
+    padding-top: 5px;
+}
+.age{
+    padding-bottom: 10px;
+    display: block;
+    margin-left: 10px;
+}
+.aged{
+    padding-top: 5px;
+}
+.role{
+    padding-bottom: 10px;
+    display: block;
+}
+.select-role{
+    width: 200px;
+    padding-right: 0px;
+    margin-left: 10px;
+    height: 20px;
+}
+.select-r{
+    padding-top: 5px;
+}
+.rating{
+    padding-bottom: 10px;
+    padding-top: 3px;
+    margin-left: 10px;
+}
+.rate{
+    font-weight: 500;
+    font-size: small;
+    padding-left: 3px;
+}
+.rateme{
+    padding-top: 5px;
+}
+.likes{
+    padding-bottom: 10px;
+    padding-top: 3px;
+    margin-left: 10px;
+}
+.like{
+    font-weight: 500;
+    font-size: small;
+    padding-left: 3px;
+}
+.likeme{
+    padding-top: 5px;
+}
+input[type=text]{
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    width: 90%;
+}
+input[type=email]{
+    padding-left: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+    width: 90%;
+}
+input[type=number]{
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+    width: 90%;
+}
+select{
+    border-radius: 5px;
+    outline: none;
+    height: 20px;
+    width: 88%;
+    margin-left: 10px;
+    border: none;
+}
+option{
+    font-size: small;
+    font-weight: 200;
+}
+input[type=radio]{
+    font-size: small;
+    font-weight: 100;
+    padding-left: 10px;
+}
+ input[type=checkbox]{
+    font-size: small;
+    font-weight: 100;
+    padding-left: 10px;
+}
+ .remark{
+     padding-bottom: 5px;
+    padding-top: 3px;
+    gap: 3px; 
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+ }
+.remark1{
+    padding-bottom: 20px;
+    line-height: 10px;
+}
+.txt{
+    padding-top: 5px;
+
+}
+textarea{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    width: 90%;
+}
+.btn{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+button{
+    background-color: rgb(24, 22, 22);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+}
+button:hover{
+    color: orangered;
+}
